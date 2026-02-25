@@ -1,5 +1,12 @@
 img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
+            display: block;
+            object-fit: cover;          /* keeps images square even if source differs */
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .row {
+            margin-bottom: 1.5rem;       /* just to add some breathing space between rows */
+        }
+        .row:last-child {
+            margin-bottom: 0;
+        }
